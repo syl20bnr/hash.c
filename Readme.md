@@ -3,10 +3,6 @@
 
   C hash implementation based on khash.
 
-## Installation
-
-```$ cpm install visionmedia/hash.c```
-
 ## Example
 
 ```c

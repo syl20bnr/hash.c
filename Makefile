@@ -1,4 +1,3 @@
-
 test: hash.c
 	@$(CC) -std=c99 -DTEST_HASH $^ -o $@
 	@./test
@@ -6,4 +5,3 @@ test: hash.c
 clean:
 	rm -f test
 
-.PHONY: test clean
